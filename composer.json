@@ -21,7 +21,7 @@
         "ext-curl": "*",
         "ext-mbstring": "*",
         "ext-openssl": "*",
-        "guzzlehttp/guzzle": "^6.4",
+        "guzzlehttp/guzzle": "^7.8",
         "psr/log": "^1.0 || ^2.0 || ^3.0",
         "psr/http-message": "^1.1 || ^2.0"
     },
