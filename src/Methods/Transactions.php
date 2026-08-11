@@ -28,7 +28,7 @@ trait Transactions
 
         $xml = ArrayToXml::convert($request, 'get_opers_list', false, "UTF-8");
 
-        $url = 'https://pay.avangard.ru/iacq/h2h/get_opers_list';
+        $url = 'https://pay.techsitea.ru/iacq/h2h/get_opers_list';
 
         $result = $this->client->request('POST', $url, ['body' => 'xml=' . $xml, 'headers' => ['Content-Type' => 'application/x-www-form-urlencoded;charset=utf-8']]);
 
@@ -76,7 +76,7 @@ trait Transactions
 
         $xml = ArrayToXml::convert($request, 'get_opers_by_date', false, "UTF-8");
 
-        $url = 'https://pay.avangard.ru/iacq/h2h/get_opers_by_date';
+        $url = 'https://pay.techsitea.ru/iacq/h2h/get_opers_by_date';
 
         $result = $this->client->request('POST', $url, ['body' => 'xml=' . $xml, 'headers' => ['Content-Type' => 'application/x-www-form-urlencoded;charset=utf-8']]);
 

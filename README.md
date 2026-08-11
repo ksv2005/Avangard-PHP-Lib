@@ -95,7 +95,7 @@ try {
 - `$type = ApiClient::HOST2HOST`:
 ```php
 [
-    "URL" => "https://pay.avangard.ru/iacq/pay",
+    "URL" => "https://pay.techsitea.ru/iacq/pay",
     "METHOD" => "get",
     "INPUTS" => [
         "TICKET" => "JGceLCtt000012682687LskJXuIpbfmpgeeKgkcj"
@@ -105,7 +105,7 @@ try {
 - `$type = ApiClient::POSTFORM`:
 ```php
 [
-  "URL" => "https://pay.avangard.ru/iacq/post",
+  "URL" => "https://pay.techsitea.ru/iacq/post",
   "METHOD" => "post",
   "INPUTS" => [
     "SHOP_ID" => "1",
@@ -121,7 +121,7 @@ try {
 ```
 - `$type = ApiClient::GETURL`:
 ```php
-"https://pay.avangard.ru/iacq/pay?ticket=JGceLCtt000012682687LskJXuIpbfmpgeeKgkcj"
+"https://pay.techsitea.ru/iacq/pay?ticket=JGceLCtt000012682687LskJXuIpbfmpgeeKgkcj"
 ```
 
 Пример HOST2HOST/GETURL:
